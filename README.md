@@ -1,8 +1,9 @@
+#Azure 203 usefull links
 
-to run .sh files in linux/unix/mac
+To run .sh files in linux/unix/mac
 bash filename.sh
 
-in widows background to run cmd files
+In windows platoform rename the .sh files to .cmd and run cmd files using command promot
 windows+Run --> cmd --> in command line enter path of cmd file and enter
 https://ss64.com/nt/syntax-run.html
 
