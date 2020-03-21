@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{2F17CBD2-EB36-4538-AC30-1CE79792E32A}|Default">
+  <MonoDevelop.Ide.ItemProperties.OMS.Orders PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OMS.Orders/Properties/launchSettings.json">
+    <Files>
+      <File FileName="OMS.Products/Controllers/WeatherForecastController.cs" Line="15" Column="10" />
+      <File FileName="OMS.Products/Startup.cs" />
+      <File FileName="OMS.Products/Program.cs" />
+      <File FileName="OMS.Products/WeatherForecast.cs" />
+      <File FileName="OMS.Products/Properties/launchSettings.json" />
+      <File FileName="OMS.Products/appsettings.json" />
+      <File FileName="OMS.Orders/Domain/Order.cs" />
+      <File FileName="OMS.Orders/Startup.cs" />
+      <File FileName="OMS.Orders/Program.cs" />
+      <File FileName="OMS.Orders/Properties/launchSettings.json" Line="27" Column="66" />
+      <File FileName="OMS.Orders/WeatherForecast.cs" />
+      <File FileName="OMS.Orders/appsettings.json" />
+      <File FileName="OMS.Orders/Controllers/OrdersController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OMS.Products" expanded="True">
+            <Node name="OMS.Orders" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Domain" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+            </Node>
+            <Node name="OMS.Products" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.OMS.Products PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bboddu/Projects/OMS.Products/OMS.Products/Controllers/ProductsController.cs" relfile="OMS.Products/Controllers/ProductsController.cs" line="54" column="1" />
+      <Breakpoint file="/Users/bboddu/Projects/OMS.Products/OMS.Products/Controllers/ProductsController.cs" relfile="OMS.Products/Controllers/ProductsController.cs" line="48" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

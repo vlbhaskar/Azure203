@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{2F17CBD2-EB36-4538-AC30-1CE79792E32A}|Default">
+  <MonoDevelop.Ide.ItemProperties.OMS.PostOrderFunc PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.OMS.Orders PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OMS.Orders/Domain/Order.cs">
+    <Files>
+      <File FileName="OMS.PostOrderFunc/host.json" Line="3" Column="2" />
+      <File FileName="OMS.PostOrderFunc/host.json" Line="3" Column="2" />
+      <File FileName="OMS.PostOrderFunc/OMS.cs" Line="22" Column="103" />
+      <File FileName="OMS.PostOrderFunc/local.settings.json" Line="6" Column="32" />
+      <File FileName="OMS.Products/Controllers/ProductsController.cs" Line="7" Column="40" />
+      <File FileName="OMS.Products/Startup.cs" Line="21" Column="10" />
+      <File FileName="OMS.Orders/Controllers/OrdersController.cs" Line="72" Column="70" />
+      <File FileName="OMS.Orders/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="OMS.Orders/Domain/Order.cs" Line="6" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OMS" expanded="True">
+            <Node name="OMS.Orders" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Domain" expanded="True">
+                <Node name="Order.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="OMS.Products" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.OMS.Products PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bboddu/Projects/OMS.Products/OMS.Products/Controllers/ProductsController.cs" relfile="OMS.Products/Controllers/ProductsController.cs" line="54" column="1" />
+      <Breakpoint file="/Users/bboddu/Projects/OMS.Products/OMS.Products/Controllers/ProductsController.cs" relfile="OMS.Products/Controllers/ProductsController.cs" line="48" column="1" />
+      <Breakpoint file="/Users/bboddu/Projects/OMS.Products/OMS.PostOrderFunc/OMS.cs" relfile="OMS.PostOrderFunc/OMS.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
