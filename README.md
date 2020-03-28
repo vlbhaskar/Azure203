@@ -37,5 +37,5 @@ https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdate
 
 
   # OMS Draft Design
-![OMS Design](https://github.com/vlbhaskar/Azure203/blob/master/OMS.Products/DesignDiagram.jpg)
+![OMS Design](https://github.com/vlbhaskar/Azure203/blob/master/DesignDiagram.jpg)
 
