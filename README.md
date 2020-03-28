@@ -40,7 +40,7 @@ https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdate
 
 Step-1:
 
-Login to Azure --> Create COSMOD DB Account(API option as Core(SQL))  --> Open newly created cosmos db Account --> click on "Data Explorer" Create "New Database" with Name OMSDB --> Create "New Container" with Name byCategoryID --> Open the container and add below JSON document.
+Login to Azure --> Create Cosmos DB Account(API option as Core(SQL))  --> Open newly created cosmos DB Account --> click on "Data Explorer" Create "New Database" with Name as OMSDB --> Create "New Container" with Name byCategoryID --> Open the container and add below JSON document.
 
 {
      "pid": 3,
@@ -55,17 +55,17 @@ Login to Azure --> Create COSMOD DB Account(API option as Core(SQL))  --> Open n
     
 Step-2:
 
-Go to newly created Azure Cosmos DB account blade --. Click on Keys --> Note down Cosmos DB URL, Primarykey fields
+Go to newly created Azure Cosmos DB account blade --> Click on Keys --> Note down Cosmos DB URL, Primarykey fields
 
 Step-3; 
 
-Open OMS.sln file in VStudio --> Go to OMS.Proudcts Project --> open ProcuctContrller.cs --> remplace below two properties with URL, Key found in Step-2. 
+Open OMS.sln file in VStudio --> Go to OMS.Products Project --> open ProcuctContrller.cs --> replace below two properties with URL, Key notedown in Step-2. 
    private static string CosmosEndpoint = "https://cosmosdb.documents.azure.com:443/";
         private static string CosmosMasterKey = "<enter your primary key in azure portal>";
 
 Step-4: 
 
-In Vstudio --> Right click on the project OMS.PRoudcts --> and click on "Set as start project" --> click on F5 or Run --> Start debugging --> It will open swagger page
+In Vstudio --> Right click on project OMS.Products --> and click on "Set as start project" --> click on F5 or Run --> Start debugging --> It will open swagger page
 
 Step-5: 
 
