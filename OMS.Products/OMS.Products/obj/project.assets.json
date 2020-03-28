@@ -6985,11 +6985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bboddu/Projects/OMS.Products/OMS.Products/OMS.Products.csproj",
+      "projectUniqueName": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.Products/OMS.Products.csproj",
       "projectName": "OMS.Products",
-      "projectPath": "/Users/bboddu/Projects/OMS.Products/OMS.Products/OMS.Products.csproj",
+      "projectPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.Products/OMS.Products.csproj",
       "packagesPath": "/Users/bboddu/.nuget/packages/",
-      "outputPath": "/Users/bboddu/Projects/OMS.Products/OMS.Products/obj/",
+      "outputPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.Products/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

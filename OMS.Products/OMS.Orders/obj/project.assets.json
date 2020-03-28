@@ -6500,11 +6500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bboddu/Projects/OMS.Products/OMS.Orders/OMS.Orders.csproj",
+      "projectUniqueName": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.Orders/OMS.Orders.csproj",
       "projectName": "OMS.Orders",
-      "projectPath": "/Users/bboddu/Projects/OMS.Products/OMS.Orders/OMS.Orders.csproj",
+      "projectPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.Orders/OMS.Orders.csproj",
       "packagesPath": "/Users/bboddu/.nuget/packages/",
-      "outputPath": "/Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/",
+      "outputPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.Orders/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

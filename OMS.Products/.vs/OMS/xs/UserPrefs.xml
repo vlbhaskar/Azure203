@@ -1,33 +1,23 @@
-﻿<Properties StartupConfiguration="{2F17CBD2-EB36-4538-AC30-1CE79792E32A}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{DA7134D4-02F9-42C8-BA7E-556BC4E08703}|Default">
   <MonoDevelop.Ide.ItemProperties.OMS.PostOrderFunc PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.OMS.Orders PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OMS.Orders/Domain/Order.cs">
+  <MonoDevelop.Ide.ItemProperties.GremlinNetSample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="OMS.PostOrderFunc/host.json" Line="3" Column="2" />
-      <File FileName="OMS.PostOrderFunc/host.json" Line="3" Column="2" />
-      <File FileName="OMS.PostOrderFunc/OMS.cs" Line="22" Column="103" />
-      <File FileName="OMS.PostOrderFunc/local.settings.json" Line="6" Column="32" />
-      <File FileName="OMS.Products/Controllers/ProductsController.cs" Line="7" Column="40" />
-      <File FileName="OMS.Products/Startup.cs" Line="21" Column="10" />
-      <File FileName="OMS.Orders/Controllers/OrdersController.cs" Line="72" Column="70" />
-      <File FileName="OMS.Orders/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="OMS.PostOrderFunc/OMS.cs" />
+      <File FileName="OMS.Products/Controllers/ProductsController.cs" />
+      <File FileName="OMS.Products/Startup.cs" />
+      <File FileName="OMS.Orders/Controllers/OrdersController.cs" />
+      <File FileName="OMS.Orders/Properties/launchSettings.json" />
       <File FileName="OMS.Orders/Domain/Order.cs" Line="6" Column="30" />
+      <File FileName="../../../../Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/Program.cs" Line="71" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OMS" expanded="True">
-            <Node name="OMS.Orders" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Domain" expanded="True">
-                <Node name="Order.cs" selected="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
-            </Node>
-            <Node name="OMS.Products" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-            </Node>
+            <Node name="GremlinNetSample" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -38,9 +28,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/bboddu/Projects/OMS.Products/OMS.Products/Controllers/ProductsController.cs" relfile="OMS.Products/Controllers/ProductsController.cs" line="54" column="1" />
-      <Breakpoint file="/Users/bboddu/Projects/OMS.Products/OMS.Products/Controllers/ProductsController.cs" relfile="OMS.Products/Controllers/ProductsController.cs" line="48" column="1" />
-      <Breakpoint file="/Users/bboddu/Projects/OMS.Products/OMS.PostOrderFunc/OMS.cs" relfile="OMS.PostOrderFunc/OMS.cs" line="25" column="1" />
+      <Breakpoint file="/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.Products/Controllers/ProductsController.cs" relfile="OMS.Products/Controllers/ProductsController.cs" line="54" column="1" />
+      <Breakpoint file="/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.Products/Controllers/ProductsController.cs" relfile="OMS.Products/Controllers/ProductsController.cs" line="48" column="1" />
+      <Breakpoint file="/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/OMS.PostOrderFunc/OMS.cs" relfile="OMS.PostOrderFunc/OMS.cs" line="25" column="1" />
+      <Breakpoint file="/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/Program.cs" line="55" column="1" />
+      <Breakpoint file="/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/Program.cs" line="84" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
