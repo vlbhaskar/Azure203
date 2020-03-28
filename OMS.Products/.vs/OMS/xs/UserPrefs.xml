@@ -1,24 +1,36 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C95A1699-6262-44C1-8C8D-780B09F874B5}|Default">
   <MonoDevelop.Ide.ItemProperties.OMS.PostOrderFunc PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.OMS.Orders PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="OMS.Products/Controllers/samplecosmos.json">
     <Files>
       <File FileName="GremlinNetSample.diff" Line="715" Column="41" IsPinned="True" />
       <File FileName="OMS.PostOrderFunc/host.json" Line="3" Column="2" />
       <File FileName="OMS.PostOrderFunc/OMS.cs" />
       <File FileName="OMS.Products/Controllers/ProductsController.cs" />
       <File FileName="OMS.Products/Startup.cs" />
-      <File FileName="OMS.Orders/Controllers/OrdersController.cs" />
+      <File FileName="OMS.Orders/Controllers/OrdersController.cs" Line="72" Column="70" />
       <File FileName="OMS.Orders/Properties/launchSettings.json" />
       <File FileName="OMS.Orders/Domain/Order.cs" Line="6" Column="30" />
-      <File FileName="GremlinNetSample/Program.cs" Line="47" Column="18" />
+      <File FileName="GremlinNetSample/Program.cs" Line="20" Column="77" />
       <File FileName="GremlinNetSample.diff" Line="20" Column="110" />
+      <File FileName="OMS.Products/Controllers/samplecosmos.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OMS" expanded="True">
-            <Node name="GremlinNetSample" selected="True" />
+            <Node name="GremlinNetGraphDbSample" expanded="True" />
+            <Node name="OMS.Orders" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Domain" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="OMS.Products" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="samplecosmos.json" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
