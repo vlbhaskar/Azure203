@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/GremlinNetSample.csproj": {}
+  },
+  "projects": {
+    "/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/GremlinNetSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/GremlinNetSample.csproj",
+        "projectName": "GremlinNetSample",
+        "projectPath": "/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/GremlinNetSample.csproj",
+        "packagesPath": "/Users/bboddu/.nuget/packages/",
+        "outputPath": "/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/bboddu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Gremlin.Net": {
+              "target": "Package",
+              "version": "[3.4.0-rc2, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
