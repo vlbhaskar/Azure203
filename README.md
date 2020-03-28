@@ -40,7 +40,7 @@ https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdate
 
 Step-1:
 
-Login to Azure --> Create COSMOD DB Account(with Ooption API Core(SQL))  --> Open newly created cosmos db Account --> click on "Data Explorer" Create "New Database" with Name OMSDB --> Create "New Container" with Name byCategoryID --> Open the container and add below JSON document.
+Login to Azure --> Create COSMOD DB Account(API option as Core(SQL))  --> Open newly created cosmos db Account --> click on "Data Explorer" Create "New Database" with Name OMSDB --> Create "New Container" with Name byCategoryID --> Open the container and add below JSON document.
 
 {
      "pid": 3,
