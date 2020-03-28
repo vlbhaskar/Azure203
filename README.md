@@ -36,6 +36,41 @@ Create or update APP service with REST API
 https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdate
 
 
+# OMS.Products (Setup instructions)
+
+Step-1:
+
+Login to Azure --> Create Cosmos DB Account(API option as Core(SQL))  --> Open newly created cosmos DB Account --> click on "Data Explorer" Create "New Database" with Name as OMSDB --> Create "New Container" with Name byCategoryID --> Open the container and add below JSON document.
+
+{
+     "pid": 3,
+    "name": "Samsung 1000 GB HDD",
+    "price": 100,
+    "brandName": "Samsung",
+    "series": "860 EVO",
+    "os": "Windows 8/Windows 7/Windows Server 2003 (32-bit and 64-bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX, and Linux",
+    "harddisk": "500GB",
+    "CategoryID": 1,
+    }
+    
+Step-2:
+
+Go to newly created Azure Cosmos DB account blade --> Click on Keys --> Note down Cosmos DB URL, Primarykey fields
+
+Step-3; 
+
+Open OMS.sln file in VStudio --> Go to OMS.Products Project --> open ProcuctContrller.cs --> replace below two properties with URL, Key notedown in Step-2. 
+   private static string CosmosEndpoint = "https://cosmosdb.documents.azure.com:443/";
+        private static string CosmosMasterKey = "<enter your primary key in azure portal>";
+
+Step-4: 
+
+In Vstudio --> Right click on project OMS.Products --> and click on "Set as start project" --> click on F5 or Run --> Start debugging --> It will open swagger page
+
+Step-5: 
+
+You can post the documents from Swagger with the JSON format as mentioned below so code will connect to COSMOSDB and isert document. Use get method in Swagger to fetch all doucments.
+
   # OMS Draft Design
 ![OMS Design](https://github.com/vlbhaskar/Azure203/blob/master/DesignDiagram.jpg)
 
