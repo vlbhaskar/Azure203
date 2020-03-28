@@ -12,13 +12,13 @@
       <File FileName="OMS.Orders/Properties/launchSettings.json" />
       <File FileName="OMS.Orders/Domain/Order.cs" Line="6" Column="30" />
       <File FileName="GremlinNetSample/Program.cs" Line="47" Column="18" />
+      <File FileName="GremlinNetSample.diff" Line="20" Column="110" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OMS" expanded="True">
-            <Node name="GremlinNetSample" expanded="True" selected="True" />
-            <Node name="OMS.Orders" expanded="True" />
+            <Node name="GremlinNetSample" selected="True" />
           </Node>
         </State>
       </Pad>

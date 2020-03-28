@@ -167,11 +167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/GremlinNetSample.csproj",
-      "projectName": "GremlinNetSample",
-      "projectPath": "/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/GremlinNetSample.csproj",
+      "projectUniqueName": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/GremlinNetSample/GremlinNetGraphDbSample.csproj",
+      "projectName": "GremlinNetGraphDbSample",
+      "projectPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/GremlinNetSample/GremlinNetGraphDbSample.csproj",
       "packagesPath": "/Users/bboddu/.nuget/packages/",
-      "outputPath": "/Users/bboddu/Downloads/DocumentDB-Quickstart-DotNet-Graph/GremlinNetSample/obj/",
+      "outputPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/GremlinNetSample/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
