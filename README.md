@@ -72,5 +72,5 @@ Step-5:
 You can post the documents from Swagger with the JSON format as mentioned below so code will connect to COSMOSDB and isert document. Use get method in Swagger to fetch all doucments.
 
   # OMS Draft Design
-![OMS Design](https://github.com/vlbhaskar/Azure203/blob/master/DesignDiagram.jpg)
+![OMS Design](https://github.com/vlbhaskar/Azure203/blob/master/DesignDiagramlatest.jpg)
 
