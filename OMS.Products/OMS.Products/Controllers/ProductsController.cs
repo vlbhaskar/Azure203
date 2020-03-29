@@ -15,9 +15,12 @@ namespace OMS.Products.Controllers
     public class ProductsController : ControllerBase
     {
         private static string CosmosEndpoint = "https://bbrcosmosoms.documents.azure.com:443/";
-        private static string CosmosMasterKey = "<enter your primary key in azure portal>";
-        private static string cosmosDbInstance = "OMSDB";
-        private static string conatinerName = "byCategoryID";
+        private static string CosmosMasterKey = "JJCqaGhvqX5fcjvZjlUTPV3zUQZqkP6SDCJWdX6GdEWBsKBn0fF2cww8jqUjbF8lpyVyCh93bfJZplqlG7tEZA==";
+
+        private static readonly string[] Summaries = new[]
+        {
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
 
 
         [HttpGet]
@@ -25,8 +28,9 @@ namespace OMS.Products.Controllers
         {
             using (var client = new DocumentClient(new Uri(CosmosEndpoint), CosmosMasterKey))
             {
-                var cityCollUri = UriFactory.CreateDocumentCollectionUri(cosmosDbInstance,conatinerName );
+                var cityCollUri = UriFactory.CreateDocumentCollectionUri("OMSDB", "byCategoryID");
 
+                // Obtain last sync time
 
                 var query = "SELECT * FROM c " + (string.IsNullOrEmpty(categoryID)? string.Empty : $" WHERE c.CategoryID = { categoryID} ");
 
@@ -34,6 +38,8 @@ namespace OMS.Products.Controllers
                 var list = client.CreateDocumentQuery(cityCollUri, query, feedOptions).ToList();
                 var json = JsonConvert.SerializeObject(list);
                 return json;
+
+
             } 
         }
 
@@ -50,7 +56,7 @@ namespace OMS.Products.Controllers
             {
                 using (var client = new DocumentClient(new Uri(CosmosEndpoint), CosmosMasterKey))
                 {
-                    var collUri = UriFactory.CreateDocumentCollectionUri(cosmosDbInstance,conatinerName);
+                    var collUri = UriFactory.CreateDocumentCollectionUri("OMSDB", "byCategoryID");
 
                     //var dataDocDef = new
                     //{
@@ -64,6 +70,7 @@ namespace OMS.Products.Controllers
                     //    categoryID = 1
                     //};
                     await client.CreateDocumentAsync(collUri, jsonObj);
+
 
                 }
 

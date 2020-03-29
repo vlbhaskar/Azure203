@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Orders", "OMS.Orders\OM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.PostOrderFunc", "OMS.PostOrderFunc\OMS.PostOrderFunc.csproj", "{0168B196-2EF2-41D0-A843-AD60962463A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GremlinNetGraphDbSample", "GremlinNetSample\GremlinNetGraphDbSample.csproj", "{1ECAE279-6923-4A4E-B858-51C9BF5F120C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmos.GraphDb.GremilinApiSample", "GremlinNetSample\Cosmos.GraphDb.GremilinApiSample.csproj", "{1ECAE279-6923-4A4E-B858-51C9BF5F120C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

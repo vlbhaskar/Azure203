@@ -38,8 +38,8 @@
                         PrimaryPort = 587,
                         SecondayDomain = "smtp.live.com",
                         SecondaryPort = 587,
-                        UsernameEmail = "OMS@gmail.com",
-                        UsernamePassword = "",
+                        UsernameEmail = "vlbhaskarb@gmail.com",
+                        UsernamePassword = "<PASSWORD>",
                         FromEmail = "vlbhaskarb@gmail.com",
 
                     };
@@ -49,19 +49,21 @@
                                      : email;
                     MailMessage mail = new MailMessage()
                     {
-                        From = new MailAddress(_emailSettings.UsernameEmail, "Bhaskar")
+                        From = new MailAddress(_emailSettings.UsernameEmail, "Bhaskar OMS")
                     };
                     mail.To.Add(new MailAddress(toEmail));
-                    mail.CC.Add(new MailAddress(_emailSettings.CcEmail));
+
+                    if(!string.IsNullOrEmpty(_emailSettings.CcEmail))
+                     mail.CC.Add(new MailAddress(_emailSettings.CcEmail));
 
                     mail.Subject = "Order Management System - " + subject;
                     mail.Body = message;
                     mail.IsBodyHtml = true;
                     mail.Priority = MailPriority.High;
 
-                    using (SmtpClient smtp = new SmtpClient(_emailSettings.SecondayDomain, _emailSettings.SecondaryPort))
+                    using (SmtpClient smtp = new SmtpClient(_emailSettings.PrimaryDomain, _emailSettings.PrimaryPort))
                     {
-                        smtp.Credentials = new NetworkCredential(_emailSettings.UsernameEmail, _emailSettings.UsernamePassword);
+                        smtp.Credentials = new NetworkCredential(_emailSettings.FromEmail, _emailSettings.UsernamePassword);
                         smtp.EnableSsl = true;
                         await smtp.SendMailAsync(mail);
                     }

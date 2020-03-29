@@ -18,6 +18,7 @@
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/bin/Debug/netcoreapp3.1/runtimes/win7-x64/native/DocumentDB.Spatial.Sql.dll
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/bin/Debug/netcoreapp3.1/runtimes/win7-x64/native/Microsoft.Azure.Documents.ServiceInterop.dll
+/Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/Debug/netcoreapp3.1/OMS.Orders.csprojAssemblyReference.cache
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/Debug/netcoreapp3.1/OMS.Orders.MvcApplicationPartsAssemblyInfo.cs
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/Debug/netcoreapp3.1/OMS.Orders.MvcApplicationPartsAssemblyInfo.cache
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/Debug/netcoreapp3.1/OMS.Orders.AssemblyInfoInputs.cache
@@ -28,4 +29,7 @@
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/Debug/netcoreapp3.1/staticwebassets/OMS.Orders.StaticWebAssets.xml
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/Debug/netcoreapp3.1/OMS.Orders.dll
 /Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/Debug/netcoreapp3.1/OMS.Orders.pdb
-/Users/bboddu/Projects/OMS.Products/OMS.Orders/obj/Debug/netcoreapp3.1/OMS.Orders.csprojAssemblyReference.cache
+/Users/bboddu/Projects/OMS.Products/OMS.Orders/bin/Debug/netcoreapp3.1/Microsoft.Azure.KeyVault.Core.dll
+/Users/bboddu/Projects/OMS.Products/OMS.Orders/bin/Debug/netcoreapp3.1/Microsoft.Azure.Storage.Common.dll
+/Users/bboddu/Projects/OMS.Products/OMS.Orders/bin/Debug/netcoreapp3.1/Microsoft.Azure.Storage.Queue.dll
+/Users/bboddu/Projects/OMS.Products/OMS.Orders/bin/Debug/netcoreapp3.1/Microsoft.WindowsAzure.Storage.dll

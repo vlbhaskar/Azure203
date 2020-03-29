@@ -167,9 +167,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/GremlinNetSample/GremlinNetGraphDbSample.csproj",
-      "projectName": "GremlinNetGraphDbSample",
-      "projectPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/GremlinNetSample/GremlinNetGraphDbSample.csproj",
+      "projectUniqueName": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/GremlinNetSample/Cosmos.GraphDb.GremilinApiSample.csproj",
+      "projectName": "Cosmos.GraphDb.GremilinApiSample",
+      "projectPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/GremlinNetSample/Cosmos.GraphDb.GremilinApiSample.csproj",
       "packagesPath": "/Users/bboddu/.nuget/packages/",
       "outputPath": "/Users/bboddu/Documents/Personal/GitHubSampleAzure/OMS.Products/GremlinNetSample/obj/",
       "projectStyle": "PackageReference",
@@ -212,7 +212,7 @@
             "version": "[11.0.2, )"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
       }
     }
   }
