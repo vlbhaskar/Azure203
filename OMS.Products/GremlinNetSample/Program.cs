@@ -17,7 +17,7 @@ namespace GremlinNetSample
         // Replace the values in these variables to your own.
         private static string hostname = "bbrcosmosgraphdb.gremlin.cosmosdb.azure.com";
         private static int port = 443;
-        private static string authKey = "WYDTncD3e99WIDFSp3XqZoAOY5ddguJSHLpUqdMZKaVJtndfusapHSl9zH4RoFqVjY0aZZjoOSyq6asaAssPGQ==";
+        private static string authKey = "<AUTHKEY>";
         private static string database = "graphdb";
         private static string collection = "Persons";
 
@@ -44,7 +44,7 @@ namespace GremlinNetSample
             { "CountEdges",     "g.E().count()" },
             //{ "DropVertex",     "g.V('Bhaskar').drop()" },
         };
-        //samp;les
+        //samples
 
         // Starts a console application that executes every Gremlin query in the gremlinQueries dictionary. 
         static void Main(string[] args)
