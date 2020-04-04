@@ -36,6 +36,7 @@ Create or update APP service with REST API
 https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdate
 
 EventGrid overview: https://docs.microsoft.com/en-us/azure/event-grid/overview
+https://docs.microsoft.com/en-us/azure/event-grid/custom-event-quickstart-portal
 
 # OMS.Products (Setup instructions)
 
